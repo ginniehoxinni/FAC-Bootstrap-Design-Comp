@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1100px) {
+    .up_coming_events .wrap {
+        padding-top: 5%; 
+        padding-bottom: 5%; 
+        padding-left: 10%; 
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    .up_coming_events .wrap {
+        padding-top: 5%; 
+        padding-bottom: 5%; 
+        padding-left: 10%; 
+    }
+    
+    .up_coming_events .title {
+        font-size: 1.5rem;
+        
+    }
+    .up_coming_events p {
+        font-size: 1.2rem;
+        line-height: 1.0rem;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+
+    .navbar-collapse li{
+     
+    
+        text-align: center !important;
+        border-bottom: 1px solid rgba(92, 92, 92, 0.5);
+        padding: 10px
+    
+    }
+    .navbar-nav {
+        width: 100% !important;
+        
+    }
+}

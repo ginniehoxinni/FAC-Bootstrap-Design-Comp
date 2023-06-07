@@ -1,0 +1,231 @@
+﻿/*   
+Theme Name: FAC-Bootstrap-Design-Comp Wordpress Site
+Theme URI: http://www.FAC-Bootstrap-Design-Comp.com
+Description: FAC-Bootstrap-Design-Comp
+Author: Me
+Author URI: http://www.FAC-Bootstrap-Design-Comp.com
+Version: 1
+*/ 
+.border {
+    border: 2px solid red !important;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("images/bg.png");
+    background-repeat: repeat;
+    margin:0px !important;
+    padding: 0px !important;
+}
+
+a {
+    color: #101010;
+    text-decoration: none;
+}
+a:hover {
+    color: #101010;
+    text-decoration: underline;
+}
+.has-medium-font-size,
+.has-large-font-size,
+h1, h2, h3, h4, h5, h6, .font-Unbounded {
+    font-family: 'Unbounded', cursive, sans-serif;;
+}
+
+header {
+    margin:0px !important;
+    padding: 0px !important;
+}
+.navbar {
+    font-size: 0.875em;
+    /*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in Figma)divided by 16 which equals 0.875em*/
+    
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    letter-spacing: -3px;
+
+}
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  
+}
+
+a.nav-link {
+text-transform: uppercase !important;
+font-family: 'Unbounded', cursive, sans-serif !important;
+}
+a {
+    color: #101010;
+}
+
+a:hover {
+
+    color: #101010;
+}
+.borderTopBottom {
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+}
+.bg-dark {
+    background-color: #101010!important;
+}
+.bg-pink {
+    background-color: #D128E0
+}
+.bg-purple {
+    background-color: #7928E0
+}
+.bg-green{
+    background-color: #A2AD1F;
+}
+.bg-cyan{
+    background-color: #28E0D5;
+}
+.bg-orange{
+    background-color: #E04928;
+}
+
+.tip {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+  
+}
+.hero.hero-bg {
+    background-image: url('images/hero.png');
+    height: 80vh;
+    background-size: cover;
+}
+.hero .tagline {
+   padding-top: 15%;
+   color: #101010;
+}
+
+.hero .tagline h1{
+    text-shadow: 2px 2px rgba(6, 6, 6, 0.5);
+ }
+ 
+.hero .tagline .btn{
+    text-shadow: 1px 1px rgba(6, 6, 6, 0.5);
+ }
+ 
+
+/*Section*/
+
+.section-sub-heading p::after {
+    content: " ]" !important;
+}
+
+.section-sub-heading p::before  {
+    content: "[ ";
+}
+.section-subtitle a.subtitle-link{
+    display: inline-block;
+    font-family: 'Unbounded', cursive, sans-serif;
+    font-size: 1rem;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.section-subtitle a.subtitle-link.active,
+.section-subtitle a.subtitle-link:focus{
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+
+
+
+/*Line up*/
+.line_up img {
+    border-top-left-radius: 2rem;
+}
+
+.line_up .title{
+    border-bottom-right-radius: 2rem;
+    background-color: #D9D9D9;
+    padding: 20px 10px;
+    text-align: center;
+}
+.line_up .wrap{
+    margin-bottom: 20px;
+}
+
+.line_up .wrap:hover{
+    margin-bottom: 20px;
+    
+}
+
+/*Up Coming Events*/
+.up_coming_events a {
+    color: #ffffff;
+}
+
+.up_coming_events .wrap {
+     /*padding-top: 10%; 
+    padding-bottom: 10%; */
+    padding-left: 23%;
+
+}
+
+.up_coming_events .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+.up_coming_events p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+}
+.up_coming_events .btn-buy {
+    font-weight: bold;
+    
+}
+/*Up Coming Events*/
+footer{
+    margin-top: 100px;
+    color: #101010;
+    border-top: 1px solid #101010;
+    
+}
+footer .footer {
+    padding-top: 70px;
+    padding-bottom: 70px
+
+}
+footer a{
+    color: #101010;
+    text-decoration: none
+}
+footer a:hover{
+    color: #101010;
+    text-decoration: underline;
+}
+
+footer .btn-footer {
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 0px;
+}
+
+footer .footer-info {
+    padding-top: 20px;
+    border-top: 1px solid #101010;
+}
+footer .footer-info p{
+    color: #101010;
+    font-size: 0.9rem;
+}
+footer .footer-info span{
+    color: #101010;
+    font-size: 0.9rem;
+ 
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
